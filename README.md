@@ -74,6 +74,8 @@ docker run -d -p 8080:8080 --name mcp-test test-mcp-server
 }
 ```
 
+> Rate limiting; return 429 if exceeded
+
 ## Available tool
 
 ### `get_random_number`
